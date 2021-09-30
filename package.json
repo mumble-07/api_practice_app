@@ -1,5 +1,9 @@
 {
   "name": "sample_project",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "@popperjs/core": "^2.10.1",
+    "bootstrap": "^5.0.0-beta3",
+    "popper.js": "^1.16.1"
+  }
 }
