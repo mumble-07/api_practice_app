@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Rawg
   class Client
     def self.creator_roles
@@ -8,7 +10,7 @@ module Rawg
       response = Request.call('get', '/developers')
     end
 
-     def self.games
+    def self.games
       response = Request.call('get', '/games')
     end
 
@@ -16,7 +18,7 @@ module Rawg
       response = Request.call('get', '/genres')
     end
 
-     def self.platforms
+    def self.platforms
       response = Request.call('get', '/platforms')
     end
 
