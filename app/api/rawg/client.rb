@@ -26,5 +26,13 @@ module Rawg
     def self.parents_platforms
       Request.call('get', '/platforms/lists/parents')
     end
+
+    def self.publishers
+      Request.call('get', '/publishers')
+    end
+
+    def self.stores
+      Request.call('get', '/stores')
+    end
   end
 end

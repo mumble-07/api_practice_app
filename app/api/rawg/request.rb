@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 module Rawg
+  # request to API rawg
   class Request
     TOKEN = '11989593649e4295a6bb299ae92979f2'
     BASE_URL = 'https://api.rawg.io/api'

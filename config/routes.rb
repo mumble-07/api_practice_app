@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
+  root 'home_page#home_page'
   namespace :api_rawg do
     get '/creator-roles' => 'creator_roles#index'
     get '/developers' => 'developers#index'
@@ -8,5 +9,7 @@ Rails.application.routes.draw do
     get '/genres' => 'genres#index'
     get '/platforms' => 'platforms#index'
     get '/platforms/lists/parents' => 'parents_platforms#index'
+    get '/publishers' => 'publishers#index'
+    get '/stores' => 'stores#index'
   end
 end
