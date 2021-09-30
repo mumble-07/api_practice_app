@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
-  namespace :api do
+  namespace :api_rawg do
     get '/creator-roles' => 'creator_roles#index'
     get '/developers' => 'developers#index'
     get '/games' => 'games#index'

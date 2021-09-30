@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 module Rawg
+  # using RAWG API
   class Client
     def self.creator_roles
       response = Request.call('get', '/creator-roles')

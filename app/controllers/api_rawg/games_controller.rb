@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
-module Api
+module ApiRawg
+  # rawg games
   class GamesController < ApplicationController
     def index
       games = Rawg::Client.games

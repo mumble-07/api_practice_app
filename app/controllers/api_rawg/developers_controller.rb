@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
-module Api
+module ApiRawg
+  # rawg developers
   class DevelopersController < ApplicationController
     def index
       developers = Rawg::Client.developers

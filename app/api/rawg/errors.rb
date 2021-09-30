@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 module Rawg
+  # errors
   class Errors
     def self.map(code)
       case code

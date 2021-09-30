@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
-module Api
+module ApiRawg
+  # rawg creator roles
   class CreatorRolesController < ApplicationController
     def index
       creator_roles = Rawg::Client.creator_roles

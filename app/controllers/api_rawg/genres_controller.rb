@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
-module Api
+module ApiRawg
+  # rawg genres
   class GenresController < ApplicationController
     def index
       genres = Rawg::Client.genres

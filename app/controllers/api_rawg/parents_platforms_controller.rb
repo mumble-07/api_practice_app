@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
-module Api
+module ApiRawg
+  # rawg list parents platforms
   class ParentsPlatformsController < ApplicationController
     def index
       parents_platforms = Rawg::Client.parents_platforms
