@@ -1,1 +1,43 @@
 @import 'bootstrap/dist/css/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+$mainFont: 'Roboto', sans-serif;
+
+body {
+  background-image: url('bg3.jpg');
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  }
+
+  .header {
+    width: 100vw;
+    height: 7vh;
+    text-align: left;
+    margin-bottom: 5%;
+    font: 250% $mainFont;
+    color: white;
+    h1 {
+      margin: 2%;
+    }
+
+  }
+
+
+.btn.btn-primary {
+  background-color: white;
+  border: white;
+  border-radius: 5px;
+}
+
+
+.btn.btn-primary a {
+text-decoration: none;
+color: black ;
+font: 100% $mainFont;
+}
+
+button a {
+text-decoration: none;
+}
