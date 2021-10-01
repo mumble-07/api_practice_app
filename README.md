@@ -1,6 +1,7 @@
 # API Wrapper (RAWG.IO)
 ###### A mini project for practicing API wrappers (Avion school rails activity)
-![image](https://user-images.githubusercontent.com/73781775/135678249-ad22d37e-8de1-4437-97ee-d23034ffffa2.png)
+![image](https://user-images.githubusercontent.com/73781775/135678524-aadc88cd-a357-4ad8-a8ab-aedd0e94db78.png)
+
 
 ## Additional Sources: 
 
