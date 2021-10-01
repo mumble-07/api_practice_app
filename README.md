@@ -1,9 +1,10 @@
 # API Wrapper (RAWG.IO)
 ###### A mini project for practicing API wrappers (Avion school rails activity)
+![image](https://user-images.githubusercontent.com/73781775/135678249-ad22d37e-8de1-4437-97ee-d23034ffffa2.png)
 
 ## Additional Sources: 
 
-###### https://rawg.io/apidocs
+###### API Docs: https://rawg.io/apidocs
 ###### Documentation link: https://api.rawg.io/docs/
 
 ## How to use API?
@@ -18,13 +19,12 @@ git clone https://github.com/mumble-07/api_practice_app.git
 bundle install
 ```
 ## Configuration
-###### It is best practice not to push your own API key, so the key used in this mini project was hidden in credentials. Make sure to add your own API key to your own credential. 
+###### It is best practice not to push your own API key, so the key used in this mini project is hidden in credentials. Make sure to add your own API key to your own credential. 
 >>> Run
 ``` 
 EDITOR="code --wait" rails credentials:edit
 ```
 ###### Add this inside your credential file.
-
 ```
 rawg_api:
   RAWG_API_TOKEN: <YOUR API KEY HERE>
@@ -35,11 +35,10 @@ app/api/rawg/request.rb) , the TOKEN was declared as this:
 TOKEN = Rails.application.credentials.rawg_api[:RAWG_API_TOKEN]
 ```
 ###### This is to access the API TOKEN you put in your credentials. 
-
 >>> Run
-``` rails s
 ```
-
+rails s
+```
 ## TESTING
 ###### You may now test the API wrapper, make sure rails server is running. 
 ###### You may also test this via postman. 
