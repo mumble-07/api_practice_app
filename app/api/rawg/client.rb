@@ -34,5 +34,9 @@ module Rawg
     def self.stores
       Request.call('get', '/stores')
     end
+
+    def self.tags
+      Request.call('get', '/tags')
+    end
   end
 end
