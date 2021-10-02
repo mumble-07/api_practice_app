@@ -8,9 +8,9 @@
 ###### API Docs: https://rawg.io/apidocs
 ###### Documentation link: https://api.rawg.io/docs/
 
-## How to use API?
+## How to use this API wrapper?
 ###### Create your own account in RAWG.IO to get your own API KEY. 
-###### Clone repo into your local machine
+###### Clone repo into your local machine to try it out. 
 ```
 git clone https://github.com/mumble-07/api_practice_app.git
 ```
@@ -30,8 +30,7 @@ EDITOR="code --wait" rails credentials:edit
 rawg_api:
   RAWG_API_TOKEN: <YOUR API KEY HERE>
 ```  
-###### As you can see inside the request.rb (filepath: 
-app/api/rawg/request.rb) , the TOKEN was declared as this: 
+###### As you can see inside the request.rb (filepath: app/api/rawg/request.rb) , the TOKEN was declared as this: 
 ```
 TOKEN = Rails.application.credentials.rawg_api[:RAWG_API_TOKEN]
 ```
